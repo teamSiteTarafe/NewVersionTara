@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*          petite image carree     */
+.img_boss>img{
+    position: absolute;
+    top: 780px;
+    right: 100px;
+}
+
+.div_nouveaute{
+    height: 8vh;
+    margin: 50px 0px;
+    margin-top: 150px;
+}
+.p1{
+    font-size: 4vh;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: auto;
+    color:red;
+
+}
+.underline{
+    margin: auto;
+    width: 20vh;
+    border: 1px solid black;
+}
+.desc00>P{
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+}
+/*              images produits             */
+.img_div{
+    margin: 100px 0px;
+}
+.img_div img{
+    width: 100%;
+}
+
+/*                  Affichage des produits      */
+.boutique_produit{
+    background-color: rgba(230, 230, 230, 0.4);
+}
+.boutique_prod{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.nouveaute01{
+    margin: 5vh 0vh;
+    margin-left: 6%;
+    min-width: 180px;
+    max-width: 27%;
+    border-radius: 10px;
+    background-color: white;
+}
+.class_link{
+    color: black;
+    width: 100%;
+}
+.img_nouveaute{
+    width: 98%;
+    margin: 0px auto;
+}
+.info_prod{
+    min-height: 25vh;
+}
+.nom_prod{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 2vh 0vh;
+}
+.marque_prod{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2vh 0vh;
+}
+.prix_prod{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2vh 0vh;
+}
+
+
+@media screen and (max-width:980px){
+    .nouveaute01{
+        margin-left:4%;
+    }
+    .img_boss>img{
+        float: right;
+        right: 60px;
+        width: 250px;
+        top:790px;
+
+    }
+    .desc00>P{
+        font-size: 16px;
+        width: 90%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:850px){
+    .nouveaute01{
+        margin-left:4%;
+    }
+    .img_boss>img{
+        float: right;
+    }
+    .desc00>P{
+        font-size: 16px;
+        margin: auto;
+    }
+    .img_div{
+        height: 400px;
+        display: flex;
+        margin: 50px 0px;
+    }
+}
+@media screen and (max-width:750px){
+    
+    .nouveaute01{
+        max-width: 40%;
+    }
+}
+@media screen and (max-width:500px){
+    
+    .nouveaute01{
+        max-width: 70%;
+        min-width: 250px;
+        margin: 5vh auto;
+    }
+    .desc00>P{
+        font-size: 14px;
+        margin: auto;
+    }
+    .img_boss>img{
+        right: 40px;
+        width: 220px;
+        top: 800px;
+    }
+    
+}
